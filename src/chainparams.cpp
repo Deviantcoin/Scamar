@@ -55,18 +55,18 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
     (0, uint256("0x00000e697a1e963f6ae8288419ffb0d59de9d232bac8efda8c6491d1c31e3139")) //gen block
-    (1, uint256("0x000006673841efc8525afb74a6855871bf71c1d1ab6d93cc9d6a45f43bac87b7")) 
-    (2, uint256("0x00000d46e354372609f5f6c0cf40c46a2c174899d7eeec64514fa16909ef64c9"))
-    (3, uint256("0x0000010f6728ecde4e59649bbc9f24f6eeac182c0b42e5b53b508647f4f30611"))
-    (167, uint256("0x00000012ba3beedd544c6bc63a98a1f496a64c2817e56fd8547534c93cc891c6"))
-    (254, uint256("0x0000001468b048b5f3801f107475691e87a546cdb8a2313391ef54979850d8df"))
-    (428, uint256("0x00000040da892adf5afdf02e732e2fa20632947b9a26d994bfc9214a11b56539"))
-    (499, uint256("0x00000030e323683107f1c34f6ce4886cf0dd49d7d5df7de525e061a6bb1da0fb"))
-    (500, uint256("0x0000007e0194c4abd5692f4264825ac9a6a72f0d38d232faec5eecb0c7f72b9a"))
-    (501, uint256("0x6f6f05badd2d9b824749cbee6a732ab46338c563c16162501853a1a2f952f29d"))
-    (1587, uint256("0x24a7001a82608901f47dbd693e0e3e72ba5588c4a476d053ffcb8294a9f32ceb"))
-    (2342, uint256("0x06b972caff65d145d6714d7e9184f03a4e134f46f2dc599ceaa6fc4b293bf85f"))
-    (3110, uint256("0xcc230f6ec71671418af9e75aeed4a9d2671f0a262564b261e013c5e57b34153d"));
+//    (1, uint256("0x000006673841efc8525afb74a6855871bf71c1d1ab6d93cc9d6a45f43bac87b7")) 
+//    (2, uint256("0x00000d46e354372609f5f6c0cf40c46a2c174899d7eeec64514fa16909ef64c9"))
+//    (3, uint256("0x0000010f6728ecde4e59649bbc9f24f6eeac182c0b42e5b53b508647f4f30611"))
+//    (167, uint256("0x00000012ba3beedd544c6bc63a98a1f496a64c2817e56fd8547534c93cc891c6"))
+//    (254, uint256("0x0000001468b048b5f3801f107475691e87a546cdb8a2313391ef54979850d8df"))
+//    (428, uint256("0x00000040da892adf5afdf02e732e2fa20632947b9a26d994bfc9214a11b56539"))
+//    (499, uint256("0x00000030e323683107f1c34f6ce4886cf0dd49d7d5df7de525e061a6bb1da0fb"))
+//    (500, uint256("0x0000007e0194c4abd5692f4264825ac9a6a72f0d38d232faec5eecb0c7f72b9a"))
+//    (501, uint256("0x6f6f05badd2d9b824749cbee6a732ab46338c563c16162501853a1a2f952f29d"))
+//    (1587, uint256("0x24a7001a82608901f47dbd693e0e3e72ba5588c4a476d053ffcb8294a9f32ceb"))
+//    (2342, uint256("0x06b972caff65d145d6714d7e9184f03a4e134f46f2dc599ceaa6fc4b293bf85f"))
+//    (3110, uint256("0xcc230f6ec71671418af9e75aeed4a9d2671f0a262564b261e013c5e57b34153d"));
 
 
 static const Checkpoints::CCheckpointData data = {
@@ -143,9 +143,9 @@ public:
         nMaxMoneyOut = 88000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 500;
+        nLastPOWBlock = 200;
         nModifierUpdateBlock = 999999999;
-        nZerocoinStartHeight = 501;
+        nZerocoinStartHeight = 201;
         nZerocoinStartTime = 1529589600; // Thursday, June 21, 2018 2:00:00 PM GMT
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = ~1; //Trigger a recalculation of accumulators
@@ -191,8 +191,8 @@ public:
         vSeeds.push_back(CDNSSeedData("seed3.scamarcoin.io", "seed3.scamarcoin.io"));           
 	vSeeds.push_back(CDNSSeedData("seed4.scamarcoin.io", "seed4.scamarcoin.io"));           
 	vSeeds.push_back(CDNSSeedData("seed5.scamarcoin.io", "seed5.scamarcoin.io"));           
-	vSeeds.push_back(CDNSSeedData("138.197.146.236", "138.197.146.236"));          
-        vSeeds.push_back(CDNSSeedData("209.97.131.20", "209.97.131.20"));   
+//	vSeeds.push_back(CDNSSeedData("138.197.146.236", "138.197.146.236"));          
+//        vSeeds.push_back(CDNSSeedData("209.97.131.20", "209.97.131.20"));   
      
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 90);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 10);
