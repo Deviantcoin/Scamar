@@ -377,7 +377,7 @@ bool IsBlockHashInChain(const uint256& hashBlock);
 bool ValidOutPoint(const COutPoint out, int nHeight);
 void RecalculateZSCMSpent();
 void RecalculateZSCMMinted();
-bool RecalculateDEVSupply(int nHeightStart);
+bool RecalculateSCMSupply(int nHeightStart);
 bool ReindexAccumulators(list<uint256>& listMissingCheckpoints, string& strError);
 
 
