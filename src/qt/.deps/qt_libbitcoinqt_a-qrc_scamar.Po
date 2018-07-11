@@ -1,0 +1,1 @@
+qt/qt_libbitcoinqt_a-qrc_scamar.o: qt/qrc_scamar.cpp

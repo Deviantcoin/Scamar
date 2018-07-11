@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Scamar
+Comment=Scamar P2P Cryptocurrency
+Comment[fr]=Scamar, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Scamar, eşten eşe kriptografik sanal para birimi
+Exec=scamar-qt %u
+Terminal=false
+Type=Application
+Icon=scamar128
+MimeType=x-scheme-handler/scamar;
+Categories=Office;Finance;

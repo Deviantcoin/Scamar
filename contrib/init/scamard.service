@@ -1,0 +1,26 @@
+[Unit]
+Description=Scamar's distributed currency daemon
+After=network.target
+
+[Service]
+User=scamar
+Group=scamar
+
+Type=forking
+PIDFile=/var/lib/scamard/scamard.pid
+
+ExecStart=/usr/bin/scamard -daemon -pid=/var/lib/scamard/scamard.pid \
+          -conf=/etc/scamar/scamar.conf -datadir=/var/lib/scamard
+
+ExecStop=-/usr/bin/scamar-cli -conf=/etc/scamar/scamar.conf \
+         -datadir=/var/lib/scamard stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

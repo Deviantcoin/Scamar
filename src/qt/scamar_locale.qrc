@@ -1,0 +1,35 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/scamar_bg.qm</file>
+        <file alias="ca">locale/scamar_ca.qm</file>
+        <file alias="cs">locale/scamar_cs.qm</file>
+        <file alias="da">locale/scamar_da.qm</file>
+        <file alias="de">locale/scamar_de.qm</file>
+        <file alias="en">locale/scamar_en.qm</file>
+        <file alias="en_US">locale/scamar_en_US.qm</file>
+        <file alias="es">locale/scamar_es.qm</file>
+        <file alias="es_ES">locale/scamar_es_ES.qm</file>
+        <file alias="fi">locale/scamar_fi.qm</file>
+        <file alias="fr_FR">locale/scamar_fr_FR.qm</file>
+        <file alias="hi_IN">locale/scamar_hi_IN.qm</file>
+        <file alias="hr">locale/scamar_hr.qm</file>
+        <file alias="hr_HR">locale/scamar_hr_HR.qm</file>
+        <file alias="it">locale/scamar_it.qm</file>
+        <file alias="ja">locale/scamar_ja.qm</file>
+        <file alias="ko_KR">locale/scamar_ko_KR.qm</file>
+        <file alias="lt_LT">locale/scamar_lt_LT.qm</file>
+        <file alias="nl">locale/scamar_nl.qm</file>
+        <file alias="pl">locale/scamar_pl.qm</file>
+        <file alias="pt">locale/scamar_pt.qm</file>
+        <file alias="pt_BR">locale/scamar_pt_BR.qm</file>
+        <file alias="ro_RO">locale/scamar_ro_RO.qm</file>
+        <file alias="ru">locale/scamar_ru.qm</file>
+        <file alias="sk">locale/scamar_sk.qm</file>
+        <file alias="sv">locale/scamar_sv.qm</file>
+        <file alias="tr">locale/scamar_tr.qm</file>
+        <file alias="uk">locale/scamar_uk.qm</file>
+        <file alias="vi">locale/scamar_vi.qm</file>
+        <file alias="zh_CN">locale/scamar_zh_CN.qm</file>
+        <file alias="zh_TW">locale/scamar_zh_TW.qm</file>
+    </qresource>
+</RCC>
