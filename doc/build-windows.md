@@ -80,6 +80,10 @@ Ubuntu Bionic 18.04 <sup>[1](#footnote1)</sup>:
 ![Image of update-alternative-x86_64]
 (Scamar/doc/img/mingw-alternatives-x86_64-posix.png)
 
+If you want to embed images, this is how you do it:
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
 Once the toolchain is installed the build steps are common:
 
 Note that for WSL the Deviant Core source path MUST be somewhere in the default mount file system, for
