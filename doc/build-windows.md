@@ -110,7 +110,7 @@ Optional:
 This command will create the installer file deviant-\<major version\>-win64-setup.exe.
 
 Info: if you are building on Windows Subsystem for Linux, the built files are located in:
-%LOCALAPPDATA%\Packages\\<>Distro Specific name<>\ <sup>[2](#footnote2)</sup>
+%LOCALAPPDATA%\Packages\\<>Distro Specific name<>\ <sup>[2](#footnote2)</sup>, unless you change such behaviour (for example setting a prefix under /mnt, or using Installation tips)
 
 
 ## Building for 32-bit Windows
@@ -153,7 +153,7 @@ Optional:
 This command will create the installer file deviant-\<major version\>-win64-setup.exe.
 
 Info: if you are building on Windows Subsystem for Linux, the built files are located in:
-%LOCALAPPDATA%\Packages\\<>Distro Specific name<>\ <sup>[2](#footnote2)</sup>
+%LOCALAPPDATA%\Packages\\<>Distro Specific name<>\ <sup>[2](#footnote2)</sup>, unless you change such behaviour (for example setting a prefix under /mnt, or using Installation tips)
 
 ## Depends system
 
