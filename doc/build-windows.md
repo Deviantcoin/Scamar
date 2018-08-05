@@ -91,20 +91,20 @@ Acquire the source in the usual way:
 
 Once the source code is ready the build steps are below.
 
-    PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g') # strip out problematic Windows %PATH% imported var
-    chmod -R 755 Source
-    cd Source
-    cd depends
-    make HOST=x86_64-w64-mingw32
-    cd ..
-    ./autogen.sh
-    CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --disable-tests --prefix=/build-win64
-    make
-    sudo make install
+`PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g') # strip out problematic Windows %PATH% imported var
+chmod -R 755 Source
+cd Source
+cd depends
+make HOST=x86_64-w64-mingw32
+cd ..
+./autogen.sh
+CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --disable-tests --prefix=/build-win64`<sup>[2](#footnote2)</sup>
+`make
+sudo make install`
 
 Optional:
 
-    make deploy
+`make deploy`
 
 This command will create the installer file deviant-\<major version\>-win64-setup.exe.
 
