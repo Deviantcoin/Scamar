@@ -77,7 +77,7 @@ Ubuntu Bionic 18.04 <sup>[1](#footnote1)</sup>:
 
     sudo update-alternatives --config x86_64-w64-mingw32-g++ # Set the default mingw32 g++ compiler option to posix.
 
-![Image of update-alternative-x86_64](./doc/img/mingw-alternatives-x86_64-posix.png)
+![Image of update-alternative-x86_64](./img/mingw-alternatives-x86_64-posix.png)
 
 Once the toolchain is installed the build steps are common:
 
